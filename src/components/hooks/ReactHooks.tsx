@@ -1,9 +1,11 @@
-import PlayWithUseStateArray from "./PlayWithUseStateArray.tsx";
+import UseStateArray from "./UseStateArray.tsx";
+import UseStateBatchingAndAsync from "./UseStateBatchingAndAsync.tsx";
 
 const ReactHooks = () => {
   return (
     <>
-      <PlayWithUseStateArray/>
+      <UseStateArray/>
+      <UseStateBatchingAndAsync/>
     </>
   )
 }

@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 
 
-const PlayWithUseState = () => {
+const UseStateArray = () => {
   // State with Array
   const [todos, setTodos] = useState<string[]>([
     'Learn Nest',
@@ -51,12 +51,12 @@ const PlayWithUseState = () => {
     <div>
       <h1>Todo List</h1>
       {
-        todos.map((todo) => (
-          <p>{todo}</p>
+        todos.map((todo, index) => (
+          <p key={index}>{todo}</p>
         ))
       }
     </div>
   )
 }
 
-export default PlayWithUseState;
+export default UseStateArray;
