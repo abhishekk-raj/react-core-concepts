@@ -1,9 +1,9 @@
-import PlayWithUseState from "./PlayWithUseState.tsx";
+import PlayWithUseStateArray from "./PlayWithUseStateArray.tsx";
 
 const ReactHooks = () => {
   return (
     <>
-      <PlayWithUseState/>
+      <PlayWithUseStateArray/>
     </>
   )
 }
