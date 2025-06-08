@@ -1,6 +1,7 @@
 import UseStateArray from "./UseStateArray.tsx";
 import UseStateBatchingAndAsync from "./UseStateBatchingAndAsync.tsx";
 import UseStateImmutability from "./UseStateImmutability.tsx";
+import UseStateComplexObjUpdate from "./UseStateComplexObjUpdate.tsx";
 
 const ReactHooks = () => {
   return (
@@ -8,6 +9,7 @@ const ReactHooks = () => {
       <UseStateArray/>
       <UseStateBatchingAndAsync/>
       <UseStateImmutability/>
+      <UseStateComplexObjUpdate/>
     </>
   )
 }
