@@ -8,6 +8,10 @@ const UseStateBatchingAndAsync = () => {
   * This code will not update count by 2 each time button clicked
   * Since state updates in React are asynchronous and batched together
   * to improve performance
+  * React batches multiple setState calls into a single update
+  * setState is asynchronous - the updated value is not immediately available
+  * React waits until the vent loop finishes before updating the DOM. During
+  * that time multiple updates are batched
   * */
   // const updateCount = () => {
   //   setCount(count + 1);
