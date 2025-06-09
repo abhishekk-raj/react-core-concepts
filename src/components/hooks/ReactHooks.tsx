@@ -1,17 +1,15 @@
-import UseStateArray from "./UseStateArray.tsx";
-import UseStateBatchingAndAsync from "./UseStateBatchingAndAsync.tsx";
-import UseStateImmutability from "./UseStateImmutability.tsx";
-import UseStateComplexObjUpdate from "./UseStateComplexObjUpdate.tsx";
-import UseStateLazyInitialization from "./UseStateLazyInitialization.tsx";
+import UseEffectStaleValue from "./UseEffectStaleValue.tsx";
 
 const ReactHooks = () => {
   return (
     <>
-      <UseStateArray/>
+      {/*<UseStateArray/>
       <UseStateBatchingAndAsync/>
       <UseStateImmutability/>
       <UseStateComplexObjUpdate/>
-      <UseStateLazyInitialization/>
+      <UseStateLazyInitialization/>*/}
+
+      <UseEffectStaleValue/>
     </>
   )
 }
