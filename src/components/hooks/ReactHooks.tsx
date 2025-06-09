@@ -1,5 +1,4 @@
-import UseEffectStaleValue from "./UseEffectStaleValue.tsx";
-import UseEffectUnmountCleanup from "./UseEffectUnmountCleanup.tsx";
+import UseRefPreserveMutableValue from "./UseRefPreserveMutableValue.tsx";
 
 const ReactHooks = () => {
   return (
@@ -10,8 +9,10 @@ const ReactHooks = () => {
       <UseStateComplexObjUpdate/>
       <UseStateLazyInitialization/>*/}
 
-      <UseEffectStaleValue/>
-      <UseEffectUnmountCleanup/>
+      {/*<UseEffectStaleValue/>
+      <UseEffectUnmountCleanup/>*/}
+
+      <UseRefPreserveMutableValue/>
     </>
   )
 }
