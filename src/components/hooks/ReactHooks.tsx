@@ -1,4 +1,5 @@
 import UseEffectStaleValue from "./UseEffectStaleValue.tsx";
+import UseEffectUnmountCleanup from "./UseEffectUnmountCleanup.tsx";
 
 const ReactHooks = () => {
   return (
@@ -10,6 +11,7 @@ const ReactHooks = () => {
       <UseStateLazyInitialization/>*/}
 
       <UseEffectStaleValue/>
+      <UseEffectUnmountCleanup/>
     </>
   )
 }
