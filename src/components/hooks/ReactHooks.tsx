@@ -1,5 +1,4 @@
-import UseRefPreserveMutableValue from "./UseRefPreserveMutableValue.tsx";
-import UseRefDomAccessAndPrevValue from "./UseRefDomAccessAndPrevValue.tsx";
+import UseMemoExpensiveCalculation from "./UseMemoExpensiveCalculation.tsx";
 
 const ReactHooks = () => {
   return (
@@ -13,8 +12,10 @@ const ReactHooks = () => {
       {/*<UseEffectStaleValue/>
       <UseEffectUnmountCleanup/>*/}
 
-      <UseRefPreserveMutableValue/>
-      <UseRefDomAccessAndPrevValue/>
+      {/*<UseRefPreserveMutableValue/>
+      <UseRefDomAccessAndPrevValue/>*/}
+
+      <UseMemoExpensiveCalculation/>
     </>
   )
 }
