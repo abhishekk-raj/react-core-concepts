@@ -1,9 +1,10 @@
-import ReactHooks from "./components/hooks/ReactHooks.tsx";
+import ComponentArchitecture from "./components/architecture/ComponentArchitecture.tsx";
 
 function App() {
   return (
     <>
-      <ReactHooks/>
+      {/*<ReactHooks/>*/}
+      <ComponentArchitecture/>
     </>
   )
 }
