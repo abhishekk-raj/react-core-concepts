@@ -1,10 +1,11 @@
-import ComponentArchitecture from "./components/architecture/ComponentArchitecture.tsx";
+import {TrafficLight} from "./TrafficLight.tsx";
 
 function App() {
   return (
     <>
       {/*<ReactHooks/>*/}
-      <ComponentArchitecture/>
+      {/*<ComponentArchitecture/>*/}
+      <TrafficLight/>
     </>
   )
 }

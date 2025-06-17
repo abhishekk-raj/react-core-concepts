@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+
+.trafficLight {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+}
